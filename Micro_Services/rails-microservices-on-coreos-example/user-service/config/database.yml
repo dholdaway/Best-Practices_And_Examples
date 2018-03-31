@@ -1,0 +1,25 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: <%= ENV['POSTGRES_HOST'] %>
+
+development:
+  <<: *default
+  database: postgres
+  username: postgres
+  password: secretpassword 
+  host: <%= ENV['POSTGRES_HOST'] %>
+test:
+  <<: *default
+  database: postgres
+  username: postgres
+  password: secretpassword 
+  host: <%= ENV['POSTGRES_HOST'] %>
+
+production:
+  <<: *default
+  database: postgres
+  username: postgres
+  password: secretpassword 
+  host: <%= ENV['POSTGRES_HOST'] %>

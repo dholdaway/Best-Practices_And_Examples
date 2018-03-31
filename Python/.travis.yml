@@ -1,0 +1,6 @@
+sudo: false
+language: python
+install: pip install sphinx
+script: 
+- make doctest
+- make html

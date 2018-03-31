@@ -1,0 +1,7 @@
+---
+- tasks:
+  - name: shell no pipe
+    shell: echo hello
+
+  - name: shell with jinja filter
+    shell: echo {{"hello"|upper}}

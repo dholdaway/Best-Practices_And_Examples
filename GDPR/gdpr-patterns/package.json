@@ -1,0 +1,27 @@
+{
+  "name": "gdpr-patterns",
+  "version": "0.0.5",
+  "description": "Main repo for GDPR patterns",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWASP/gdpr-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OWASP/gdpr-patterns/issues"
+  },
+  "homepage": "https://github.com/OWASP/gdpr-patterns#readme",
+  "dependencies": {
+    "fluentnode": "^0.7.1",
+    "jira-client": "^6.4.1",
+    "request": "^2.85.0"
+  }
+}
